@@ -1,0 +1,38 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;  
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-dark-orange{
+    background-color: rgb(252, 122, 0);
+}
+
+.bg-hover:hover{
+    background-color: rgb(252, 122, 0);
+}
+
+.btn-outline-success{
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-success:hover{
+    background-color: rgb(252, 122, 0);
+    border-color: rgb(252, 122, 0);
+}
+
+.nav-item:hover, .nav-item:hover .dropdown-menu{
+    background-color: rgb(252, 122, 0);
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-item:hover{
+    background-color: white;
+}
