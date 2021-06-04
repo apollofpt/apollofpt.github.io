@@ -2605,6 +2605,112 @@
     margin:px;
 }
 
+/*--------------------------------------- Tình 5/6/2021 ---------------------------------------*/
+
+.search-group{
+    display: flex;
+    width: 100%;
+}
+.search-group > .toggle-target-container{
+    flex: 1 0 auto;
+}
+
+.search-toggle{
+    background-color: #f8f9fa;
+    padding: 4.4px 10px;
+}
+
+.toggle-target-container{
+    display: block;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.toggle-target{
+    height: 100%;
+}
+
+.search-text{
+    background-color: #fff;
+    border: none;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.search-text:focus{
+    box-shadow: none;
+}
+
+.search-text::placeholder{
+    color: #000;
+}
+.search-button i{
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    padding: 0;
+}
+
+.search-button{
+    display: flex;
+    width: 40px!important;
+    height: 40px!important;
+}
+
+#login{
+    display: flex;
+    padding: 10px 30px 10px 10px;
+    margin-left: auto;    
+}
+
+#login a{
+    padding: 0;
+}
+
+#login a:hover{
+    padding: 0;
+    color: #d38b2d;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .close-search .search-button:hover{
+        background-color: #d38b2d;
+        color: #fff;
+    }
+
+    .open-search .search-button:hover{
+        background-color: #fff;
+        color: #d38b2d;
+    }
+
+    .toggle-target-container{
+        display: none;
+        border: none;
+    }
+
+    .search-text{
+        background-color: #d38b2d;
+        color: #f8f9fa;
+    }
+
+    .open-search{
+        background-color: #d38b2d;
+        color: white;
+    }
+
+    .close-search{}
+
+    .search-text::placeholder{
+        color: #f8f9fa;
+    }
+}
+/*--------------------------------------- Tình 5/6/2021 ---------------------------------------*/
+
 
 
 
