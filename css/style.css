@@ -2601,7 +2601,6 @@
 	border: none;
 }
 /*--------------------------------------- Tình 5/6/2021 ---------------------------------------*/
-
 .search-group{
     display: flex;
     width: 100%;
@@ -2671,6 +2670,23 @@
     color: #d38b2d;
 }
 
+.newsletter-box i{
+    right: 5px;
+}
+
+.footer-link ul li i {
+    line-height: 35px;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+.footer-link ul li:hover i{
+    transform: rotate(-180deg);
+}
 
 @media only screen and (min-width: 992px) {
     .close-search .search-button:hover{
@@ -2702,6 +2718,12 @@
 
     .search-text::placeholder{
         color: #f8f9fa;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .dropdown-menu{
+        background: #d38b2d;
     }
 }
 /*--------------------------------------- Tình 5/6/2021 ---------------------------------------*/
