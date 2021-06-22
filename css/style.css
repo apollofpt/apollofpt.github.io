@@ -1420,7 +1420,7 @@
      -o-transition: all .3s ease-in-out;
      -ms-transition: all .3s ease-in-out;
 }
-/*  .footer-link ul li a::before {
+ .footer-link ul li a::before {
      font-family: FontAwesome;
      content: "\f105";
      position: absolute;
@@ -1432,7 +1432,7 @@
      -moz-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
      -ms-transition: all .3s ease-in-out;
-} */
+}
  .footer-link ul li a:hover::before {
      left: 5px;
 }
@@ -2447,6 +2447,10 @@
  .shop-detail-box-main{
      padding: 70px 0px;
 }
+ .product-detail-box-main{
+     padding: 70px 12%;    
+     padding-bottom: 100px;
+ }
  .single-product-slider .carousel-control-prev {
      bottom: auto;
      background: #111111;
